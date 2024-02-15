@@ -1,7 +1,7 @@
 const Modal = ({ modalRef, setShowModal, handleSave }) => {
   return (
     <div
-      className={`fixed inset-0 z-50 flex items-center justify-center overflow-y-auto overflow-x-hidden outline-none transition-all duration-500 ease-out focus:outline-none w-full md:w-[85%] mx-auto`}
+      className={`fixed inset-0 z-50 flex items-center justify-center overflow-y-auto overflow-x-hidden outline-none transition-all duration-500 ease-out focus:outline-none w-full md:w-[70%] mx-auto max-w-[700px]`}
     >
       <div
         className={`mt-5 transition-[opacity] duration-500 ease-out mx-auto w-[85%]`}
